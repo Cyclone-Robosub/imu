@@ -43,7 +43,7 @@ int main(int argc, char* argv[])
 	// get log type from command line
 	cISLogger::sSaveOptions options;
 	options.logType = (argc < 3 ? cISLogger::LOGTYPE_DAT : cISLogger::ParseLogType(argv[2]));
-	inertialSense.EnableLogger(true, "", options);
+	inertialSense.EnableLogger(true, "Logs/", options);
 
 	// STEP 4: Enable data broadcasting
 	// stop current data streaming
