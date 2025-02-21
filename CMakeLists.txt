@@ -1,6 +1,6 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.10.0)
 
-project(ISLoggerExample)
+project(Logger)
 
 set(IS_SDK_DIR "${CMAKE_CURRENT_LIST_DIR}/inertial-sense-sdk")
 include(${IS_SDK_DIR}/include_is_sdk_find_library.cmake)
